@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
-import Announcement from "../components/Announcement";
 import BooksList from '../components/BooksList';
 import Substack from "../components/Substack";
 import Footer from "../components/Footer";
+import Announcements from '../components/Announcements';
 
 
 const Container = styled.div``;
@@ -39,7 +39,7 @@ const Catalog = () => {
   return (
     <Container>
       <Navbar />
-      <Announcement />
+      <Announcements />
       <Title>Dresses</Title>
       <FilterContainer>
         <Filter>

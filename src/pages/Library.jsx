@@ -2,10 +2,10 @@ import React from 'react';
 import styled from "styled-components";
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
-import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Substack from "../components/Substack";
+import Announcements from '../components/Announcements';
 
 
 const Container = styled.div``;
@@ -116,7 +116,7 @@ const Library = () => {
   return (
     <Container>
         <Navbar />
-        <Announcement />
+        <Announcements />
         <Wrapper>
                 <ImgContainer>
                     <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
