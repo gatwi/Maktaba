@@ -1,5 +1,5 @@
 import React from 'react'
-// import Announcement from "../components/Announcement";
+import Announcements from '../components/Announcements';
 // import Categories from "../components/Categories";
 // import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -10,7 +10,8 @@ import Navbar from "../components/Navbar";
 export const Home = () => {
   return (
     <div>
-        <Navbar />
+      <Announcements/>
+      <Navbar/>
     </div>
   );
 };
