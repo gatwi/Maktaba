@@ -27,8 +27,16 @@ const Info = styled.div`
 `;
 
 const Title = styled.h1`
-    color:white;
+    border: none;
+    padding: 10px;
+    color: black;
+    background-color: gray;
     margin-bottom: 20px;
+    transition: all 0.5s ease;
+  &:hover {
+    background-color: #e9f5f5;
+    transform: scale(1.0);
+  }
 `;
 
 const Button = styled.button`

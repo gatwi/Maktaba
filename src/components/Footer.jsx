@@ -83,7 +83,7 @@ const Footer = () => {
     <Container>
         <Left>
             <Logo>KARIBU MAKTABA.</Logo>
-            <Desc>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed veniam delectus error possimus laudantium autem mollitia totam, ad, sunt fugit neque, doloremque cumque tenetur recusandae eum? Voluptas exercitationem nihil aliquid.</Desc>
+            <Desc>Maktaba.org is an online library and free education tool to connect learners and mentors around the world to read together, discuss books, and teach each other. Launched in late 2021, the bilingual website already has almost 500 free ebooks and OERs in English and Swahili. Content ranges from classic literature to technical resources with curated collections for teachers, health workers, farmers, parents and youth.</Desc>
             <SocialContainer>
                 <SocialIcon color="3B5999">
                     <FacebookIcon />
