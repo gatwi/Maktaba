@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import Announcement from "../components/Announcement";
 import BooksList from '../components/BooksList';
-import Newsletter from "../components/Newsletter";
+import Substack from "../components/Substack";
 import Footer from "../components/Footer";
 
 
@@ -75,8 +75,8 @@ const Catalog = () => {
             </Select>
         </Filter>
       </FilterContainer>
-      <Products />
-      <Newsletter />
+      <BooksList />
+      <Substack />
       <Footer />
     </Container>
   );

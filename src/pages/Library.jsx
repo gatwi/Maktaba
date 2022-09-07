@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -149,9 +151,9 @@ const Library = () => {
                     </FilterContainer>
                     <AddContainer>
                         <AmountContainer>
-                        <Remove />
-                        <Amount>1</Amount>
-                        <Add />
+                          <RemoveIcon />
+                          <Amount>1</Amount>
+                          <AddIcon />
                         </AmountContainer>
                         <Button>ADD TO CART</Button>
                     </AddContainer>
