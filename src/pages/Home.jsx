@@ -4,6 +4,7 @@ import Categories from '../components/Categories';
 import Navbar from "../components/Navbar";
 import Slider from '../components/Slider';
 import BooksList from '../components/BooksList';
+import Substack from '../components/Substack';
 
 
 export const Home = () => {
@@ -14,6 +15,7 @@ export const Home = () => {
       <Slider />
       <Categories />
       <BooksList />
+      <Substack />
     </div>
   );
 };
