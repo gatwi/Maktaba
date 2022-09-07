@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Slider from '../components/Slider';
 import BooksList from '../components/BooksList';
 import Substack from '../components/Substack';
-
+import Footer from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -16,6 +16,7 @@ export const Home = () => {
       <Categories />
       <BooksList />
       <Substack />
+      <Footer />
     </div>
   );
 };
