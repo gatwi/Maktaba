@@ -15,9 +15,9 @@ const Container = styled.div`
 const Announcements = () => {
   return (
     <Container>
-        Get your books on at 50% discount!!
+        Original, Pre-Loved & New Hard Copy Books @ READ-iculously Low Prices!!!
     </Container>
   )
 }
 
-export default Announcements
+export default Announcements;

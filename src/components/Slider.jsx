@@ -1,5 +1,7 @@
 
 import React from 'react';
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 import { useState } from "react";
 import { sliderItems } from "../data";
 import styled from 'styled-components';
@@ -91,7 +93,7 @@ const Slider = () => {
   return (
     <Container>
         <Arrow direction="left" onClick={() => handleClick("left")}>
-            left
+          <KeyboardDoubleArrowLeftIcon />
         </Arrow>
         <Wrapper slideIndex={slideIndex}>
             {sliderItems.map((item) => (
@@ -108,7 +110,7 @@ const Slider = () => {
             ))}
         </Wrapper>
         <Arrow direction="right" onClick={() => handleClick("right")}>
-            right
+              <KeyboardDoubleArrowRightIcon />
         </Arrow>
     </Container>
   );

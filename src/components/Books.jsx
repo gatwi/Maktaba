@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import SearchIcon from '@mui/icons-material/Search';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 
 const Info = styled.div`
@@ -70,13 +73,13 @@ const Books = ({ item }) => {
         <Image  src={item.img} />
         <Info>
             <Icon>
-                shop
+                <ShoppingBagIcon />
             </Icon>
             <Icon>
-                like
+                <FavoriteIcon />
             </Icon>
             <Icon>
-                search
+                <SearchIcon />
             </Icon>
         </Info>
     </Container>

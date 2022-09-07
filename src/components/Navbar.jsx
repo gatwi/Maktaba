@@ -1,5 +1,6 @@
-import { Badge } from '@material-ui/core';
-import { Search, ShoppingCartOutlined } from '@material-ui/icons';
+import { Badge } from '@mui/material';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import SearchIcon from '@mui/icons-material/Search';
 import React from 'react';
 import styled from "styled-components";
 
@@ -68,8 +69,8 @@ const Navbar = () => {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input />
-            Search
+            <Input placeholder='search...'/>
+            <SearchIcon style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
         <Center><Logo>MAKTABA.</Logo></Center>
@@ -77,9 +78,9 @@ const Navbar = () => {
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
-            {/* <Badge badgeContent={2} color="primary" >
-              <ShoppingCartOutlined/>
-            </Badge>  */}
+            <Badge badgeContent={2} color="primary" >
+              <ShoppingCartOutlinedIcon />
+            </Badge> 
           </MenuItem>
         </Right>
       </Wrapper>
