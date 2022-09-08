@@ -40,38 +40,40 @@ const Catalog = () => {
     <Container>
       <Navbar />
       <Announcements />
-      <Title>Dresses</Title>
+      <Title>Goodies!</Title>
       <FilterContainer>
         <Filter>
             <FilterText>Filter Products:</FilterText>
             <Select>
                 <Option disabled selected>
-                    Color
+                    Books
                 </Option>
-                <Option>White</Option>
-                <Option>Black</Option>
-                <Option>Red</Option>
-                <Option>Blue</Option>
-                <Option>Yellow</Option>
-                <Option>Green</Option>
+                <Option>YA Fiction</Option>
+                <Option>Children's Books</Option>
+                <Option>Memoris</Option>
+                <Option>African Lit</Option>
+                <Option>Humor and Comedy</Option>
+                <Option>Fantasy</Option>
+                <Option>LGBTQ Theme</Option>
             </Select>
             <Select>
                 <Option disabled selected>
-                    Size
+                    Accessories
                 </Option>
-                <Option>XS</Option>
-                <Option>S</Option>
-                <Option>M</Option>
-                <Option>L</Option>
-                <Option>XL</Option>
+                <Option>Stationery</Option>
+                <Option>Tote Bags</Option>
+                <Option>Bookmarks</Option>
+                <Option>Mugs and Bottles</Option>
+                <Option>Beanbags</Option>
+                <Option>Gift Vouchers</Option>
             </Select>
         </Filter>
         <Filter>
             <FilterText>Sort Products:</FilterText>
             <Select>
-                <Option selected>Newest</Option>
-                <Option>Price (asc)</Option>
-                <Option>Price (desc)</Option>
+                <Option selected>Original</Option>
+                <Option>Pre-Loved</Option>
+                <Option>New Paperbacks</Option>
             </Select>
         </Filter>
       </FilterContainer>

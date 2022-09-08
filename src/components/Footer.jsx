@@ -125,6 +125,7 @@ const Footer = () => {
             <ContactItem>
                 <EmailIcon style={{marginRight: "10px"}} /> info@gmail.com
             </ContactItem>
+            <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>
     </Container>
   );
